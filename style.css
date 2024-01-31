@@ -28,6 +28,12 @@ footer {
     text-align: center;
     padding: 10px;
 }*/
+
+
+/* second design*/
+
+
+/*
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -37,10 +43,61 @@ body {
 }
 
 header {
-    background-color: #007bff;
+    background-color: #a4b9bb;
     color: #fff;
     padding: 20px;
-    text-align: center;
+    text-align: right;
+    position: relative;
+}
+
+header img {
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #f3f5f8;
+    color: #151313;
+    padding: 20px;
+    text-align: left;
+}
+
+.profile {
+    position: relative;
+}
+
+.profile img {
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    border-radius: 50%;
+    position: absolute;
+    top: -40px; /* Adjust the distance from the top */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.profile h1, .profile p {
+    margin: 10px 0 0;
+}
+
+/* Add the rest of your styles... */
+
+header div {
+    position: relative;
+    z-index: 1;
 }
 
 section {
